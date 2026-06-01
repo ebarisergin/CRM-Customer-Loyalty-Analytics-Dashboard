@@ -40,7 +40,7 @@ This project solves a classic business problem by analyzing **73,700 units in sa
 
 The repository includes a complete SQL script (`crm_loyalty_analysis.sql`) built to query the infrastructure. Key structured queries include:
 
-### 🔍 Core Operations & VIP Segmentation
+### Core Operations & VIP Segmentation
 * **Macro Metric Tracking:** Aggregating total revenue (`SUM`) and user base capacity (`COUNT`).
 * **Loyalty Contribution Analysis:** Joining customer profiles with financial metrics to rank performance by tiers.
 * **High-Value (VIP) Filtering:** Using `HAVING SUM(amount) > 5000` to isolate and target high-yield customers.
